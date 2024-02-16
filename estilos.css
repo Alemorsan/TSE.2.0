@@ -1,0 +1,48 @@
+body{
+    background-color: #00084b;
+    color: #e8e8e8;
+}
+.logo{
+    background-image: url(../IMG/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 30px 30px 29%;
+    width: 550px;
+    height: 180px;
+}
+/*.form_departamento{
+    width: 300px;
+    margin: 15px;
+}*/
+.contenedor{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.table tbody{
+    height: 400px;
+    overflow-y: auto;
+    width: 100%;
+}
+.table thead,
+.table tbody,
+.table td,
+.table th{
+    display: block;
+
+}
+.table tbody td,
+.table thead > tr > th{
+    float: left;
+    border-bottom-width: 0;
+
+}
+
+.seleccion{
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.seleccion select{
+    width: 30%;
+    
+}
